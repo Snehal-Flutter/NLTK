@@ -1,0 +1,27 @@
+let a = 100
+for i = 100 to 10
+ print i
+endfor
+if i>10
+  if a<b
+    a(c,d)
+  else
+    b()
+    while true
+      a = a + b
+    endwhile
+  endif
+endif
+procedure a (inp1 , inp2)
+  c = inp1 + inp2
+endprocedure
+
+procedure average
+declare counter = 0 , sum = 0
+while counter < 5
+  read mark
+  sum = sum + mark
+  counter = counter + 1
+  endwhile
+average = sum/5
+print average
